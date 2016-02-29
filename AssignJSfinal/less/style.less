@@ -1,0 +1,377 @@
+//out: ../css/styles.css
+
+@import "variable.less";
+
+html,
+body {
+  height: 100%;
+  max-height: 100%;
+  font-family: 'Work Sans', sans-serif;
+}
+
+* {
+}
+
+p,
+h1,
+h3,
+h4,
+h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+// navigation bar from top
+.nav-top {
+  background-color: @bg-nav-top;
+}
+
+.nav-content {
+  height: @height-nav-top;
+  color: @nav-color;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.nav-content a {
+  color: @nav-color;
+  line-height: @height-nav-top;
+}
+
+.wellcome {
+  line-height: @height-nav-top;
+}
+
+.menu {
+  padding: 0;
+  text-align: right;
+}
+
+.menu i {
+  font-size: @font-icon;
+  line-height: @height-nav-top;
+}
+
+.menu a {
+  .padding-horizontal;
+}
+// the second navigation bar
+.second-nav {
+  background-color: @bg-nav;
+}
+.nav-sec-content {
+  height: (@height-nav-top*2);
+}
+.nav-sec-content .menu {
+  line-height: 100px;
+}
+.brand {
+  width: 100%;
+  height: 100%;
+}
+
+.button {
+  .btn;
+  border: @border-btn;
+}
+// the main container - page content
+.main {
+  .full-size;
+  .bg-image;
+  color: @bg-nav-top;
+}
+// arrow style are in variable.less
+
+.header-center {
+  position: relative;
+  height: 45%;
+}
+// title area - aici JS pt slider
+.title {
+  width: 45%;
+  .position-absolute-left;
+  text-align: left;
+}
+.title h1 {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.big-h {
+  font-size: 400%;
+}
+.title hr {
+  width: 70%;
+  margin-left: 0;
+  border: 1px solid @bg-nav-top;
+}
+.title p::first-letter {
+    font-size: 200%;
+    font-weight: bold;
+}
+.title span {
+  font-weight: bold;
+}
+.title button {
+  background-color: inherit;
+  margin-top: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: @border-btn;
+}
+//for JS functions
+.slider .active {
+  display:block;
+}
+.slider > div {
+  display: none;
+}
+//Continutul paginii - randuri, coloane
+.first {
+  width: 22.4%;
+  height: 50%;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  background-color: @bg-nav-top;
+  color: @bg-nav;
+  text-transform: uppercase;
+  padding: 0;
+  padding-left: 15px;
+}
+.first hr {
+  .linie;
+  border: @border-col;
+  margin-left: 0;
+}
+// primul rand
+.first-row {
+  position: relative;
+  margin-left: 0;
+  padding-bottom: 10px;
+}
+.first-row p {
+  font-weight: bolder;
+}
+.lista-rank {
+  padding-left: 0;
+  padding-right: 0;
+}
+.list-image {
+  display: inline-block;
+  width: 100%;
+}
+.desc {
+  font-size: (@font-base*0.8);
+  font-weight: bold;
+}
+
+// Spanuri
+.label-span span {
+  display: block;
+  padding-right: 5px;
+  text-transform: uppercase;
+  text-align: right;
+  color: @nav-color;
+  font-size: (@font-base*0.7);
+}
+
+.ranking {
+  padding: 0;
+  color:@bg-footer;
+  line-height: 14px;
+}
+
+.health{
+  color: @bg-span-health;
+}
+
+.attack {
+  color: @bg-span-attack;
+}
+.magic {
+  color:@bg-span-magic;
+}
+.skill {
+  color: @bg-span-skill;
+}
+//aici intervine JS - adauga coloane
+.inside {
+  position:relative;
+  width : 77%;
+  padding: 0;
+}
+.go-down {
+ margin: 0;
+}
+//pt JS
+.create {
+  background-color: transparent;
+  margin-top: 100px;
+  margin-left: 5px;
+  margin-bottom: 154px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: @border-btn;
+}
+.rest-of-col h4 {
+  text-transform: uppercase;
+  color: @bg-nav-top;
+}
+.rest-of-col a {
+  text-decoration: underline;
+  font-weight: bold;
+  color: @nav-color;
+}
+.rest-of-col span {
+  font-style: italic;
+  font-weight: bold;
+}
+.box-col {
+  box-sizing: content-box;
+  width: 31.1%;
+}
+//the second row
+.sec-first {
+  width: 22.4%;
+  padding: 15px;
+  padding-bottom: 57px;
+  background-color: @bg-col;
+}
+.sec-first h1 {
+  text-transform: uppercase;
+}
+.sec-first hr {
+  margin-left: 0;
+}
+.sec-rest {
+  box-sizing: content-box;
+  padding: @padding-movie;
+  padding-right: 0;
+}
+iframe {
+  .full-size;
+}
+.sec-last {
+ box-sizing: content-box;
+ float: right;
+ margin: 0;
+ margin-bottom: 10px;
+ padding: 30px 5px 86px 5px;
+ text-align: left;
+}
+.sec-last hr {
+  margin-left: 0;
+}
+//the third row
+.col-down {
+  margin:0;
+  margin-bottom: 10px;
+}
+.col-down p {
+  display: inline-block;
+  width: 60%;
+}
+.pull-fa-left {
+  float: left;
+  margin-top: -20px;
+  margin-left: 60px;
+  font-size: @font-icon;
+}
+.pull-fa-right {
+  float: right;
+  margin-top: 50px;
+  margin-right: 60px;
+  font-size: @font-icon;
+}
+
+// The bottom row - JS for change color - aici
+.bottom {
+  background-color: @bg-footer;
+  color: @nav-color;
+}
+.like-us {
+  background-color: @bg-col;
+  color: @bg-nav;
+  padding: @padding-col;
+  text-transform: uppercase;
+  text-align: center;
+  }
+.on {
+  background-color: lighten(@bg-col, 5%);
+  border-left: @border-col;
+  border-right: @border-col;
+}
+.on button{
+  background-color: lighten(@bg-col, 5%);
+  border: 0;
+}
+.like-us i {
+  font-size: @font-icon;
+}
+.like-us h4 {
+  color: @bg-nav-top;
+}
+//footer info
+.info {
+  .margin-col-vertical;
+  padding: 0;
+  padding-right: 15px;
+}
+.info h4 {
+  text-transform: uppercase;
+  color: @bg-nav;
+}
+.info h4::after{
+  display:block;
+  content: "";
+  width: 25%;
+  .margin-line;
+  border : 1px solid @nav-color;
+  text-align: left;
+}
+.info-updates {
+  border-bottom: @border-div;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.info p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.info a {
+  color: @bg-col;
+}
+.info h1 {
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+.of {
+  line-height: 1.4em;
+  font-size: @font-base;
+}
+.footer-list {
+  background-color: inherit;
+  border:0;
+  border-radius: 0;
+  border-bottom: @border-div;
+  padding-bottom: 15px;
+}
+.glyph-color {
+  color: @bg-col;
+}
+.go-right {
+  float:right;
+}
+.footer-list:last-child {
+  border: 0;
+}
+.footer {
+  padding-left: 0;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  border-top: @border-div;
+}
+.footer a {
+  float:right;
+  padding-left: 20px;
+  color: @nav-color;
+}

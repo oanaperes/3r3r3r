@@ -1,0 +1,376 @@
+/* top navigation bar*/
+.top-nav {
+  background-color: black;
+  color: #777;
+}
+.wellcome {
+  background-color: black;
+  height: 50px;
+  color: #777;
+}
+.wellcome a {
+  color: #777;
+  line-height: 60px;
+}
+.line {
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 50px;
+}
+/* second navigation bar*/
+.nav {
+  height: 100px;
+  font-weight: bold;
+}
+.brand h2 {
+  margin: 10px 0;
+  padding-left: 30px;
+  font-weight: bold;
+  line-height: 100px;
+}
+.menu {
+  margin: 10px 0;
+  line-height: 100px;
+  text-align: right;
+  color: black;
+}
+.menu a {
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 100px;
+  color: black;
+  text-transform: uppercase;
+}
+.menu .line {
+  padding-left: 0;
+  padding-right: 0;
+}
+.cart {
+  padding: 4px 7px;
+  border-radius: 50%;
+  background-color: orange;
+  color: white;
+}
+
+/*HEADER*/
+.header {
+  clear: both;
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding-right: 0;
+  background: url(bg.png) repeat;
+  background: cover;
+}
+.jacket {
+  padding-left: 0;
+  text-align: right;
+}
+.cardigan {
+  padding-right: 0;
+  text-align: right;
+}
+.head-title {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  text-align: center;
+}
+.head-title h1 {
+  text-transform: uppercase;
+}
+.head-title a {
+  padding-left: 5px;
+  text-transform: capitalize;
+  color: gray;
+}
+#detail {
+  color: black;
+}
+/*style the content*/
+.main {
+  margin-top: 100px;
+  color: gray;
+}
+p {
+  line-height: 200%;
+}
+/*product picture*/
+.bigdress {
+  width: 100%;
+  height: 100%;
+}
+.smalldress {
+  width: 100%;
+  height: 100%;
+}
+.padding {
+  padding-top: 15px;
+}
+.active {
+  display: block;
+  border: 2px solid orange;
+}
+.secondary {
+  display: block;
+  opacity: 0.5;
+}
+.secondary:hover {
+  display: block;
+  border: 2px solid orange;
+  opacity: 1;
+}
+/*right side- product description*/
+.main h4 {
+  margin-top: 0;
+  text-transform: uppercase;
+  color: black;
+}
+.main a {
+  color: gray;
+}
+.stars {
+  width: 10%;
+}
+.padding-anc {
+  display: inline-block;
+  padding-left: 50px;
+}
+.no-price {
+  display: inline-block;
+  margin: 20px 10px 20px 0;
+  text-decoration: line-through;
+}
+.price {
+  display: inline-block;
+  margin: 20px 0;
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+}
+.instock {
+  color: green;
+  font-weight: bold;
+}
+/* bayers options: colors, sizes, quantity*/
+.color-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.label-span {
+  display: inline-block;
+  float: left;
+  padding-right: 50px;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+.colors {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.roz {
+  background-color: #B75FD4;
+}
+.galben {
+  background-color: #DBE06E;
+}
+.gri {
+  border: 2px solid gray;
+  background-color: #D3E1E3;
+}
+.verde {
+  background-color: #7DBF67;
+}
+.sizes {
+  margin-bottom: 30px;
+}
+.size-btn {
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: black;
+}
+.m-size {
+  border-color: black;
+}
+.sizes .label-span {
+  padding-right: 70px;
+}
+#dropup-btn {
+  border-radius: 0;
+}
+.quantity {
+  border: 1px solid #ddd;
+  padding: 5px 30px;
+  color: black;
+  font-size: 16px;
+}
+#dropdown-btn {
+  margin-left: 5px;
+  border-radius: 0;
+}
+.dropup .label-span {
+  padding-right: 30px;
+}
+.drop {
+  margin-bottom: 30px;
+}
+hr {
+  margin-top: 0;
+}
+.add-btn {
+  width: 30%;
+  border: 0;
+  padding: 10px;
+  background-color: black;
+  color: #ddd;
+  text-transform: uppercase;
+}
+.add a {
+  display: inline-block;
+  margin-left: 30px;
+}
+/*description of product, */
+.description {
+  background-color: #F5F5F5;
+  padding: 30px;
+}
+.desc {
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.close {
+  float: right;
+  line-height: 28px;
+  font-weight: bold;
+  font-size: 25px;
+  color: black;
+}
+.info li {
+  line-height: 200%;
+}
+.desc-review {
+  margin-top: 10px;
+  padding: 10px 30px;
+  background-color: #F5F5F5;
+}
+.desc-review p {
+  margin: 0;
+}
+.desc-review span {
+  float: right;
+  margin-top: 12px;
+}
+.main-end {
+  margin-top: 50px;
+}
+.items {
+  overflow: hidden;
+  text-transform: uppercase;
+  text-align: center;
+}
+/* pt incadrarea h1*/
+.items::after,
+.items::before {
+  position: relative;
+  vertical-align: middle;
+  display: inline-block;
+  content: "";
+  height: 1px;
+  width: 4%;
+  right: 0.5em;
+  margin-left: 3%;
+  background-color: orange;
+}
+.items::after {
+  margin-left: 0;
+  left: 0.5em;
+}
+.para-item {
+  margin-top: 40px;
+  text-align: center;
+}
+.photo-galary {
+  margin-top: 30px;
+}
+.jachete {
+  width: 100%;
+  height: 100%;
+}
+.stars-jachete {
+  width: 20%;
+  padding-top: 20px;
+}
+.photo-article {
+  text-align: center;
+}
+.photo-article p{
+  margin-bottom: 0;
+  padding-top: 10px;
+  color: gray;
+}
+.photo-article span {
+  font-weight: bold;
+}
+.list-option {
+  position: relative;
+}
+.options {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  list-style: none;
+}
+.options a {
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: 3px;
+  background-color: white;
+  color: black;
+}
+/*FOOTER - account, suport*/
+.footer {
+  margin-top: 100px;
+  background-color: #262626;
+  color: #bbb;
+}
+.account-list {
+  display: block;
+  color: #bbb;
+  line-height: 200%;
+}
+.footer .footer-title {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+}
+.recomand a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 5px 20px 5px 0;
+  font-size: 18px;
+  color: inherit;
+}
+.send-email {
+  border-bottom: 1px solid gray;
+}
+.email {
+  display: inline-block;
+  background-color: #262626;
+  border: 0;
+  font-style: italic;
+}
+.send-email span {
+  float: right;
+  font-size: 18px;
+  color: #777;
+}
+/*FOOTER - copyright*/
+.copyright {
+  height: 50px;
+  padding: 15px;
+  text-align: center;
+}

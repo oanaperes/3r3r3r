@@ -1,0 +1,142 @@
+//background
+@bg-nav-top: #0d0d0d;
+@bg-nav: white;
+@bg-col: #47A248;
+@bg-footer: lighten(@bg-nav-top, 5%);
+@bg-span-health: green;
+@bg-span-attack: red;
+@bg-span-magic: blue;
+@bg-span-skill: purple;
+
+.bg-image {
+  background: url("C:/Users/oanaperes/Desktop/assignJSfinal/img/big-girl.jpg") no-repeat;
+  background-size: cover;
+}
+
+//colors
+@nav-color: #737373;
+//heights
+@height-nav-top: 50px;
+@height-btn: 40px;
+
+.full-size {
+  margin: 0 auto;
+  width: 100%;
+}
+//margins
+.margin-col {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+.margin-col-vertical {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.margin-line {
+  margin-top:20px;
+  margin-bottom:20px;
+}
+//paddinguri
+.padding-horizontal {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@padding-btn: 10px 25px;
+@padding-arrow: 10px 12px;
+@padding-col: 30px 5px;
+@padding-movie : 0 10px;
+//borders
+@border-btn: 2px solid @bg-nav-top;
+@border-col: 1px solid @nav-color;
+@border-div: 1px solid darken(@nav-color, 25%);
+//fonts
+@font-base: 14px;
+@font-icon: (@font-base+6);
+
+//positions
+.position-absolute-left {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.position-absolute-right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+// buttons
+.btn {
+  background-color: @bg-nav;
+  color: @bg-nav-top;
+  padding: @padding-btn;
+  border-radius: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.btn-topout {
+  background-color: @bg-nav-top;
+  color: @bg-nav;
+  margin-top: -60px;
+}
+
+.btn-in {
+  background-color: @bg-col;
+}
+
+.btn-in-bottom {
+  background-color: @bg-col;
+  border-radius: 50%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+// arrows
+.arrow {
+  display: inline-block;
+  font-size: @font-icon;
+  color: @bg-nav-top;
+  padding: @padding-arrow;
+  border: @border-btn;
+}
+
+.arrow-left {
+  .position-absolute-left;
+  left: 2%;
+  top: 40%;
+}
+
+.arrow-right {
+  .position-absolute-right;
+  right: 2%;
+  top: 40%;
+}
+
+.arrow-active {
+  color:@bg-col;
+  border: 2px solid @bg-col;
+}
+
+.arrow-inactive{
+  color: @nav-color;
+  border: 2px solid @nav-color;
+}
+
+.linie {
+  width: 100px;
+  border: 1px solid @bg-nav-top;
+}
+
+// coloane
+.rest-of-col {
+  .margin-col;
+  padding: @padding-col;
+  background-color: @bg-nav;
+  color: @nav-color;
+  text-align: center;
+}

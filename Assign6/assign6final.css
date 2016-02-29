@@ -1,0 +1,496 @@
+* {
+  box-sizing: border-box;
+}
+
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  max-height: 100%;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  /*max-width: 1200px;*/
+}
+
+.cf:before,
+.cf:after,
+.row:before,
+.row:after {
+    content: "";
+    display: table;
+}
+
+.cf:after,
+.row:after {
+  clear: both;
+}
+
+[class^="col-"],
+[class*=" col-"] {
+  float: left;
+}
+
+.col-100 {
+  width: 100%;
+}
+
+.col-50 {
+  width: 50%;
+}
+
+.col-25 {
+  width: 25%;
+}
+
+.col-33 {
+  width: 33.3333%;
+}
+
+.col-66 {
+  width: 66.6666%;
+}
+
+.col-75 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 10%;
+}
+
+.col-20 {
+  width: 20%;
+}
+.col-80 {
+  width: 80%;
+}
+
+.header {
+  /*display: table;*/
+  /*position: relative;*/
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  background: url(bigfoto.jpg) no-repeat;
+  background-size: cover;
+}
+/*top nav-bar*/
+.navigation {
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation > li {
+  display: block;
+  float: left;
+}
+
+.navigation > li a {
+  display: block;
+  padding: 20px 18px;
+}
+
+.navigation-bar {
+  min-height: 40px;
+}
+
+.navigation-bar a {
+  text-decoration: none;
+  color: white;
+}
+
+.pull-right {
+  float: right;
+  margin-top: 15px;
+  margin-right: 20px;
+  padding: 3px 24px;
+  border: 0;
+  border-radius: 10px;
+  background-color: white;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.drop-icon {
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.logo {
+  padding-top: 17px;
+  padding-left: 18px;
+  padding-right: 18px;
+  color: white;
+  font: 400 130px/0.8 'Great Vibes', Helvetica, sans-serif;
+  font-size: 50px;
+  transform: rotate(-20deg);
+}
+/*Header title*/
+.centru {
+  display:table;
+  width: 100%;
+  height: 710px;
+}
+
+.header-center {
+  display: table-cell;
+  vertical-align: middle;
+  float: none;
+  /*position: absolute;
+  top: 30%;*/
+  color: white;
+}
+
+.head-center {
+  margin-bottom: 20px;
+  font: 400 130px/0.8 'Great Vibes', Helvetica, sans-serif;
+  font-size: 80px;
+  text-align: center;
+  transform: rotate(-5deg);
+}
+
+.header-center p {
+  text-align: center;
+  text-transform: uppercase;
+}
+/*header - bottom*/
+.pull-left {
+  margin-right: 20px;
+  padding: 3px 24px;
+  border: 0;
+  border-radius: 20px;
+  background-color: white;
+  font-style: italic;
+}
+
+.header-bottom {
+  position: absolute;
+  bottom: 5%;
+  margin-left: 20px;
+  color: white;
+  font-size: 14px;
+}
+
+.header-bottom p {
+  margin-bottom: 0;
+}
+
+.header-bottom h3 {
+  margin-top: 0;
+}
+
+.header-bottom a {
+  color: white;
+  font-style: italic;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+/* style the titles*/
+.div-title {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.div-title h1 {
+  margin-bottom: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.div-title p {
+  margin-top: 0;
+  color: #941323;
+  font-style: italic;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.btn-explore {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 21px;
+  padding: 10px 30px;
+  border: 0;
+  border-radius: 20px;
+  background-color: #447c9c;
+  text-transform: uppercase;
+  color: white;
+}
+
+/*.image {
+  width: 100%;
+  height: 200px;
+}*/
+
+.pozamontain {
+  /*position: relative;*/
+  display: table;
+  height: 200px;
+  text-align: center;
+  background: url(montain.jpg) no-repeat;
+  background-size: cover;
+}
+.pozawild {
+  /*position: relative;*/
+  display: table;
+  height: 200px;
+  text-align: center;
+  background: url(wild.jpg) no-repeat;
+  background-size: cover;
+}
+
+.pozaculture {
+  /*position: relative;*/
+  display: table;
+  height: 200px;
+  text-align: center;
+  background: url(culture.jpg) no-repeat;
+  background-size: cover;
+}
+.pozaboat {
+  /*position: relative;*/
+  display: table;
+  height: 200px;
+  text-align: center;
+  background: url(boat.jpg) no-repeat;
+  background-size: cover;
+}
+.pozabus {
+  /*position: relative;*/
+  display: table;
+  height: 200px;
+  text-align: center;
+  background: url(bus.jpg) no-repeat;
+  background-size: cover;
+}
+.pozacamp {
+  /*position: relative;*/
+  display: table;
+  height: 200px;
+  text-align: center;
+  background: url(camp.jpg) no-repeat;
+  background-size: cover;
+}
+.pozaarchi {
+  /*position: relative;*/
+  display: table;
+  height: 200px;
+  text-align: center;
+  background: url(archi.jpg) no-repeat;
+  background-size: cover;
+}
+.pozafood {
+  /*position: relative;*/
+  display: table;
+  height: 200px;
+  text-align: center;
+  background: url(food.jpg) no-repeat;
+  background-size: cover;
+}
+.image-center {
+    /*position: absolute;
+    left: 0%;
+    top: 50%;
+    transform: translateY(-50%);*/
+    display: table-cell;
+    vertical-align: middle;
+    /*width: 100%;*/
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+/* madagascar area*/
+.madagascar {
+  position: relative;
+  text-align: center;
+}
+
+.mdg-image {
+  width: 100%;
+  height: 400px;
+  margin: 10px;
+}
+/* arows for slider*/
+.arow-left {
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 5%;
+  border: 1px solid white;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+.arow-right {
+  position: absolute;
+  right: 0%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 5%;
+  border: 1px solid white;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
+.mdg-center {
+  position: absolute;
+  left: 20%;
+  top:50%;
+  transform: translateY(-50%);
+  width: 60%;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+.mdg-center h1::after {
+  display: block;
+  content: "";
+  width: 6%;
+  margin: 20px auto;
+  border-top: 1px solid white;
+}
+.readbtn {
+  display: block;
+  margin:0 auto;
+  padding: 3px 24px;
+  border:0;
+  border-radius: 10px;
+  background-color: black;
+  text-transform: uppercase;
+  color: white;
+}
+/* lista trips and gears*/
+.lista {
+  margin-top: 30px;
+  margin-left: 13%;
+  margin-right: 13%;
+}
+.list-image {
+  float: left;
+  width: 140px;
+  height: 140px;
+  margin-right: 10px;
+}
+.list-space{
+  margin-bottom: 20px;
+}
+.desc{
+  float: left;
+  text-transform: uppercase;
+}
+.desc p{
+  margin-bottom: 0;
+  color: #941323;
+  font-size: 10px;
+  font-style: italic;
+}
+.desc h4{
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.desc span {
+  display: block;
+  color:gray;
+  font-size: 8px;
+  font-weight: lighter;
+}
+/* footer area - zona Linkuri, Contact*/
+.footer-container {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: 200px;;
+  background-color: #1a1a1a;
+}
+.footer {
+  margin-top: 30px;
+  margin-left: 13%;
+  margin-right: 13%;
+  font-size: 12px;
+}
+.nav-list {
+  margin-top: 30px;
+}
+.nav-list ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.nav-list li {
+  margin-bottom: 10px;
+}
+.nav-list a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+/* zona de email*/
+.updates{
+  padding-left: 150px;
+  margin-top: 40px;
+  color: white;
+}
+.updates input {
+  display:block;
+  width: 85%;
+  margin-top: 10px;
+  border:0;
+  border-bottom: 1px solid gray;
+  padding-left: 8px;
+  background-color: #1a1a1a;
+  color: #941323;
+  font-style: italic;
+}
+
+.updates label {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.updates button {
+  background-color: gray;
+  color: white;
+  font-style: italic;
+}
+/*footer - zona de copyright*/
+.footer-black {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height:50px;
+  background-color: black;
+}
+
+.footer-bottom {
+  margin-left: 13%;
+  margin-right: 13%;
+  font-size: 10px;
+  color:gray;
+  text-transform: uppercase;
+}
+span.left {
+  margin-top: 20px;
+  display:inline-block;
+  padding-right: 30px;
+}
+span.right {
+  margin-top: 20px;
+  display: block;
+  padding-left: 148px;
+}
