@@ -1,0 +1,459 @@
+.bg-image {
+  background: url("../img/big-girl.jpg") no-repeat;
+  background-size: cover;
+}
+.full-size {
+  margin: 0 auto;
+  width: 100%;
+}
+.margin-col {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+.margin-col-vertical {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.margin-line {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.padding-horizontal {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.position-absolute-left {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.position-absolute-right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.btn {
+  background-color: #ffffff;
+  color: #0d0d0d;
+  padding: 10px 25px;
+  border-radius: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.btn-topout {
+  background-color: #0d0d0d;
+  color: #ffffff;
+  margin-top: -60px;
+}
+.btn-in {
+  background-color: #47a248;
+}
+.btn-in-bottom {
+  background-color: #47a248;
+  border-radius: 50%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.arrow {
+  display: inline-block;
+  font-size: 20px;
+  color: #0d0d0d;
+  padding: 10px 12px;
+  border: 2px solid #0d0d0d;
+}
+.arrow-left {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 2%;
+  top: 40%;
+}
+.arrow-right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 2%;
+  top: 40%;
+}
+.arrow-active {
+  color: #47a248;
+  border: 2px solid #47a248;
+}
+.arrow-inactive {
+  color: #737373;
+  border: 2px solid #737373;
+}
+.linie {
+  width: 100px;
+  border: 1px solid #0d0d0d;
+}
+.rest-of-col {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  padding: 30px 5px;
+  background-color: #ffffff;
+  color: #737373;
+  text-align: center;
+}
+html,
+body {
+  height: 100%;
+  max-height: 100%;
+  font-family: 'Work Sans', sans-serif;
+}
+p,
+h1,
+h3,
+h4,
+h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.nav-top {
+  background-color: #0d0d0d;
+}
+.nav-content {
+  height: 50px;
+  color: #737373;
+  padding: 0;
+  text-transform: uppercase;
+}
+.nav-content a {
+  color: #737373;
+  line-height: 50px;
+}
+.wellcome {
+  line-height: 50px;
+}
+.menu {
+  padding: 0;
+  text-align: right;
+}
+.menu i {
+  font-size: 20px;
+  line-height: 50px;
+}
+.menu a {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.second-nav {
+  background-color: #ffffff;
+}
+.nav-sec-content {
+  height: 100px;
+}
+.nav-sec-content .menu {
+  line-height: 100px;
+}
+.brand {
+  width: 100%;
+  height: 100%;
+}
+.button {
+  background-color: #ffffff;
+  color: #0d0d0d;
+  padding: 10px 25px;
+  border-radius: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 2px solid #0d0d0d;
+}
+.main {
+  margin: 0 auto;
+  width: 100%;
+  background: url("../img/big-girl.jpg") no-repeat;
+  background-size: cover;
+  color: #0d0d0d;
+}
+.header-center {
+  position: relative;
+  height: 45%;
+}
+.title {
+  width: 45%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: left;
+}
+.title h1 {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.big-h {
+  font-size: 400%;
+}
+.title hr {
+  width: 70%;
+  margin-left: 0;
+  border: 1px solid #0d0d0d;
+}
+.title p::first-letter {
+  font-size: 200%;
+  font-weight: bold;
+}
+.title span {
+  font-weight: bold;
+}
+.title button {
+  background-color: inherit;
+  margin-top: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 2px solid #0d0d0d;
+}
+.slider .active {
+  display: block;
+}
+.slider > div {
+  display: none;
+}
+.first {
+  width: 22.4%;
+  height: 50%;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  background-color: #0d0d0d;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 0;
+  padding-left: 15px;
+}
+.first hr {
+  width: 100px;
+  border: 1px solid #0d0d0d;
+  border: 1px solid #737373;
+  margin-left: 0;
+}
+.first-row {
+  position: relative;
+  margin-left: 0;
+  padding-bottom: 10px;
+}
+.first-row p {
+  font-weight: bolder;
+}
+.lista-rank {
+  padding-left: 0;
+  padding-right: 0;
+}
+.list-image {
+  display: inline-block;
+  width: 100%;
+}
+.desc {
+  font-size: 11.2px;
+  font-weight: bold;
+}
+.label-span span {
+  display: block;
+  padding-right: 5px;
+  text-transform: uppercase;
+  text-align: right;
+  color: #737373;
+  font-size: 9.8px;
+}
+.ranking {
+  padding: 0;
+  color: #1a1a1a;
+  line-height: 14px;
+}
+.health {
+  color: #008000;
+}
+.attack {
+  color: #ff0000;
+}
+.magic {
+  color: #0000ff;
+}
+.skill {
+  color: #800080;
+}
+.inside {
+  position: relative;
+  width: 77%;
+  padding: 0;
+}
+.go-down {
+  margin: 0;
+}
+.create {
+  background-color: transparent;
+  margin-top: 100px;
+  margin-left: 5px;
+  margin-bottom: 154px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 2px solid #0d0d0d;
+}
+.rest-of-col h4 {
+  text-transform: uppercase;
+  color: #0d0d0d;
+}
+.rest-of-col a {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #737373;
+}
+.rest-of-col span {
+  font-style: italic;
+  font-weight: bold;
+}
+.box-col {
+  box-sizing: content-box;
+  width: 31.1%;
+}
+.sec-first {
+  width: 22.4%;
+  padding: 15px;
+  padding-bottom: 57px;
+  background-color: #47a248;
+}
+.sec-first h1 {
+  text-transform: uppercase;
+}
+.sec-first hr {
+  margin-left: 0;
+}
+.sec-rest {
+  box-sizing: content-box;
+  padding: 0 10px;
+  padding-right: 0;
+}
+iframe {
+  margin: 0 auto;
+  width: 100%;
+}
+.sec-last {
+  box-sizing: content-box;
+  float: right;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 30px 5px 86px 5px;
+  text-align: left;
+}
+.sec-last hr {
+  margin-left: 0;
+}
+.col-down {
+  margin: 0;
+  margin-bottom: 10px;
+}
+.col-down p {
+  display: inline-block;
+  width: 60%;
+}
+.pull-fa-left {
+  float: left;
+  margin-top: -20px;
+  margin-left: 60px;
+  font-size: 20px;
+}
+.pull-fa-right {
+  float: right;
+  margin-top: 50px;
+  margin-right: 60px;
+  font-size: 20px;
+}
+.bottom {
+  background-color: #1a1a1a;
+  color: #737373;
+}
+.like-us {
+  background-color: #47a248;
+  color: #ffffff;
+  padding: 30px 5px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.on {
+  background-color: #50b251;
+  border-left: 1px solid #737373;
+  border-right: 1px solid #737373;
+}
+.on button {
+  background-color: #50b251;
+  border: 0;
+}
+.like-us i {
+  font-size: 20px;
+}
+.like-us h4 {
+  color: #0d0d0d;
+}
+.info {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 0;
+  padding-right: 15px;
+}
+.info h4 {
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.info h4::after {
+  display: block;
+  content: "";
+  width: 25%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #737373;
+  text-align: left;
+}
+.info-updates {
+  border-bottom: 1px solid #333333;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.info p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.info a {
+  color: #47a248;
+}
+.info h1 {
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+.of {
+  line-height: 1.4em;
+  font-size: 14px;
+}
+.footer-list {
+  background-color: inherit;
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid #333333;
+  padding-bottom: 15px;
+}
+.glyph-color {
+  color: #47a248;
+}
+.go-right {
+  float: right;
+}
+.footer-list:last-child {
+  border: 0;
+}
+.footer {
+  padding-left: 0;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  border-top: 1px solid #333333;
+}
+.footer a {
+  float: right;
+  padding-left: 20px;
+  color: #737373;
+}

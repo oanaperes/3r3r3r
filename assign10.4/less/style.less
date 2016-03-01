@@ -1,0 +1,41 @@
+//out: ../css/styles.css
+
+@import "variables.less";
+
+* {
+  font-size: @fontsize;
+  font-family: @fontbase, sans-serif;
+  text-align: center;
+  letter-spacing: 200%;
+}
+
+.up {
+  .base-container;
+  background-size: cover;
+}
+.container {
+  .main;
+  position: relative;
+  display: inline-block;
+}
+.footer,
+.brand {
+  .padding-div;
+}
+p {
+  text-transform: uppercase;
+}
+button {
+  text-transform: uppercase;
+  .btn;
+}
+span {
+  display: block;
+}
+a {
+  .links;
+}
+.footer {
+  width: 75%;
+  .bott-footer;
+}
