@@ -74,3 +74,79 @@ body {
   color: black;
   margin-right: 5px;
 }
+body {
+  margin:0;
+  padding: 0;
+  background-color: #ADDBA4;
+}
+.content {
+  width:60%;
+  background-color: white;
+  box-shadow: 0px 0px 20px #888888;
+  overflow: hidden;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  font-family: arial, sans-serif;
+}
+.row {
+  height: 60px;
+  border-bottom: 1px solid #ccc;
+}
+.btn {
+  text-decoration: none;
+  margin: 8px 15px;
+  opacity: .5;
+  color: black;
+  line-height: 50px;
+}
+.row a:first-child {
+  float:left;
+}
+
+/*for all uppercase text*/
+.upper {
+  text-transform: uppercase;
+}
+.favorite {
+  font-size: 30px;
+  float:right;
+  line-height: 50px;
+}
+.icon {
+  padding-right: 10px;
+}
+.product {
+  clear:both;
+  background-color: white;
+}
+.section {
+  width: 40%;
+  float: left;
+  border-right: 1px solid #ccc;
+  background-color: white;
+  padding-bottom: 60px;
+}
+.image {
+  margin: 0 auto;
+  display: block;
+}
+.aside {
+  float: left;
+  width: 56%;
+  background-color: white;
+  padding-left: 30px;
+  padding-top: 30px;
+  opacity: .7;
+}
+.aside a {
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 8px;
+  background-color: white;
+  width: 160px;
+  text-align: center;
+  color: black;
+  margin-right: 5px;
+}

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html {
   font-size: 14px;
   font-family: 'Work Sans', sans-serif;
@@ -478,3 +479,485 @@ html {
   text-decoration: none;
   text-transform: uppercase;
 }
+=======
+html {
+  font-size: 14px;
+  font-family: 'Work Sans', sans-serif;
+}
+/*navigation bar area*/
+.navigation-bar {
+  min-height: 60px;
+}
+
+.navigation-bar a {
+  text-decoration: none;
+}
+
+.navigation-bar .brand {
+  float: left;
+  padding-left: 40px;
+  font-size: 20px;
+  line-height: 60px;
+}
+
+.brand {
+  padding-right: 30px;
+  background-color: black;
+  color: white;
+  font-size: 40px;
+}
+
+.navigation {
+  margin: 0;
+  padding: 0;
+  float: left;
+  list-style: none;
+}
+
+.navigation > li {
+  display: block;
+  float: left;
+}
+
+.navigation > li button,
+.navigation > li input,
+.navigation > li a {
+  display: block;
+  padding: 12px 10px;
+  color: gray;
+  text-transform: uppercase;
+}
+
+.navigation > li a {
+  padding: 22px 30px;
+}
+
+.navigation a:hover {
+  background-color: gray;
+  color: white;
+}
+
+.navigation > li a.active {
+  background-color: black;
+  color: white;
+}
+
+.pull-right {
+  float: right;
+  padding-top: 10px;
+  padding-right: 30px;
+}
+
+.pull-right button {
+  border: 0;
+  background-color: white;
+  }
+
+.pull-right .cart-btn {
+  background-color: orange;
+  color: white;
+}
+
+.lupa {
+  padding: 5px 5px;
+  border: 0;
+  border-right: 1px solid gray;
+  font-size: 20px;
+  text-align: right;
+}
+/* Heared area*/
+.header {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  background: url(zeta-lamp.jpg), no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+.title {
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  width: 60%;
+  max-width: 960px;
+  margin-left: 20%;
+  margin-right: 20%;
+  transform: translateY(-50%);
+  color: black;
+  text-align: left;
+  font-size: 50px;
+}
+.title h1, .title h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.title h2 {
+  padding-left: 80px;
+}
+/*pt linie*/
+.title p {
+  text-transform: uppercase;
+  font-size: 16px;
+  overflow: hidden;
+}
+.title p:before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  width: 10%;
+  height: 2px;
+  vertical-align: middle;
+  right: 0.5em;
+  margin-left: 3%;
+  background-color: orange;
+}
+.title hr {
+  display: block;
+  margin-left: 2%;
+  margin-right: 20%;
+  /*border-bottom: 1px solid #ddd;*/
+}
+/*pt boxu-rile care se muta onclick*/
+.model {
+  min-height: 40px;
+  padding-right: 20px;
+}
+
+.model span {
+  display: inline-block;
+  float:left;
+  padding-left: 15%;
+  padding-right: 20px;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.box {
+  position: relative;
+}
+
+.box .model-input {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  top: -350px;
+  left: -5px;
+  border: 1px solid transparent;
+  color: black;
+  font-size: 14px;
+}
+
+.box .model-input:focus {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  top: -350px;
+  left: -5px;
+  border: 1px solid #ddd;
+  background-color: inherit;
+  color: #ddd;
+  font-size: 14px;
+}
+
+.box .model-input:hover {
+  background-color: inherit;
+}
+
+.box > li span {
+  padding-right: 15px;
+}
+/*main - product area*/
+.main {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%
+  max-width: 960px;
+  padding-top: 50px;
+  border-bottom: 1px solid #ddd;
+}
+
+.comanda {
+  padding: 6px;
+  color: gray;
+  border: 1px solid #ddd;
+}
+
+.price,
+.finish,
+.buy {
+  display: block;
+  width: 100%;
+  padding: 20px 15px;
+  text-transform: uppercase;
+}
+
+.price {
+  margin-bottom: 0;
+}
+
+.price span {
+  padding-left: 170px;
+  font-size: 18px;
+}
+
+.buy {
+  border: 0;
+  background-color: orange;
+  color: white;
+}
+
+.finish {
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  background: url(down_arrow.png) no-repeat 90% 50%;
+  background-size: 10%;
+  appearance:none;
+  -moz-appearance:none; /* Firefox */
+  -webkit-appearance:none; /* Safari and Chrome */
+  color: gray;
+}
+/*descriere produs*/
+.descriere {
+  margin-top: 35px;
+  padding: 22px 30px;
+  border-left: 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.descriere h3 {
+  text-transform: uppercase;
+  color: gray;
+}
+
+.descriere p {
+  line-height: 200%;
+}
+
+.detalii {
+  padding-top: 0px;
+  color: gray;
+  text-transform: uppercase;
+}
+/* arange content : paddings, borders*/
+.materials {
+  padding: 10px 20px 30px;
+}
+
+.borders {
+  border-bottom: 1px solid #ddd;
+}
+/* right side - product picture*/
+.poze {
+  padding: 30px;
+  border-left: 1px solid #ddd;
+}
+
+.big-lamp {
+  width: 100%;
+  min-height: 100%;
+  border:0;
+  /*max-height: 490px;*/
+}
+
+.small-lamp {
+  width: 100%;
+  height: 100%;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+
+.motto {
+  padding: 50px;
+  text-align: center;
+}
+/* pt linie*/
+.motto h1::before {
+  display:block;
+  content: "";
+  width: 4%;
+  margin: 30px auto;
+  border : 1px solid orange;
+}
+
+.nav-buttons {
+  display: initial;
+  padding: 20px 60px;
+  margin: 30px;
+  border:0;
+  color: gray;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.slider {
+  display: table;
+  width: 100%;
+  height: 610px;
+  background-color: black;
+  color: gray;
+  overflow: hidden;
+}
+
+.modele {
+  display: table-cell;
+  width: 800px;
+  height: 610px;
+  vertical-align: middle;
+  font-size: 18px;
+  text-align: center;
+}
+
+.modele h1::after{
+  display:block;
+  content: "";
+  width: 8%;
+  margin: 30px auto;
+  border : 1px solid orange;
+}
+
+.modele input {
+  margin-top: 50px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  background-color: black;
+  color: gray;
+}
+/*imagini slider area*/
+.image-list {
+  /*position: relative;*/
+  margin-right: -200px;
+  overflow: hidden;
+}
+
+.img-slide {
+  position: relative;
+  float: left;
+  width: 400px;
+  height: 500px;
+  margin-top: 50px;
+  margin-left: 15px;
+  padding-left: 5px;
+}
+
+.lustra1 {
+  background: url(lustramini4.jpg) no-repeat;
+  background-size: cover;
+}
+
+.lustra2 {
+  background: url(lustramini3.jpg) no-repeat;
+  background-size: cover;
+}
+
+.lustra3 {
+  background: url(lustramini4.jpg) no-repeat;
+  background-size: cover;
+}
+/* buttons on picture*/
+.img-slide button {
+  position: absolute;
+  left: 2%;
+  bottom:2%;
+  padding: 15px 25px;
+  background-color: orange;
+  border: 0;
+  color: white;
+}
+
+.img-slide a {
+  position: absolute;
+  left: 23%;
+  bottom:2%;
+  display:inline-block;
+  width: 60%;
+  padding-top: 17px;
+  padding-bottom: 18px;
+  margin-left: 8px;
+  border: 1px solid gray;
+  border-left: 0;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: gray;
+}
+/*users area*/
+.user-review {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%
+  max-width: 960px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.users {
+  padding-left: 30px;
+  padding-right: 30px;
+  color: gray;
+}
+
+.profil {
+  margin:0 auto;
+  display:block;
+  border: 1px solid #EDF1F2;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.users p {
+  line-height: 200%;
+  font-size: 16px;
+}
+
+.users p::before {
+  display:block;
+  content: "";
+  width: 16%;
+  margin: 30px auto;
+  border : 1px solid orange;
+}
+
+.user-nr {
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  color: gray;
+}
+
+.separate {
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+/* FOOTER*/
+.footer {
+  width: 100%;
+  height: 300px;
+  padding: 50px;
+  background-color: #eee;
+  text-align: center;
+}
+
+.footer span {
+  display:inline-block;
+  width: 80px;
+  font-size: 20px;
+  padding: 15px;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.footer a {
+  display: inline-block;
+  padding: 30px;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+>>>>>>> becbf464f14de19c8caa41c96160972465e60787

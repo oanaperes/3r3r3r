@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 html {
   margin:0;
@@ -98,3 +99,105 @@ a:hover {
   margin-top: 140px;
   margin-bottom: 30px;
 }
+=======
+
+html {
+  margin:0;
+  padding:0;
+  background: linear-gradient( rgba(0, 4, 0, 0.4), rgba(0, 4, 0, 0.4) ), url(heal.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  margin:0 auto;
+  margin-top: 100px;
+  width:960px;
+  background: url(heal.jpg) no-repeat center center fixed;
+  background-size: cover;
+  box-shadow: 0px 0px 20px #111;
+  font-family: arial;
+}
+.container::after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+/*Containarul Central*/
+
+.section {
+  float: left;
+  margin-left: 44px;
+  width: 56%;
+}
+.section h1 {
+  margin-bottom: 0;
+  font-size: 50px;
+  font-weight: bold;
+  opacity: .6;
+}
+.section p{
+  padding-top: 0;
+  font-weight: bold;
+  opacity: .6;
+}
+
+/* Partea de user */
+
+.aside {
+  float:right;
+  width:39%;
+  background-color: white;
+  text-align: center;
+}
+.aside p {
+  font-size: small;
+  opacity: 0.6;
+}
+.profil {      /*Pt poza de profil */
+  display:block;
+  margin:0 auto;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  border: 1px solid #EDF1F2;
+  border-radius: 50%;
+}
+.form-control {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 8px;
+  border: 1px solid #A9ADA8;
+  border-radius: 4px;
+  width: 60%;
+}
+.btn {
+  padding: 10px 8px;
+  width: 70%;
+  border: 0;
+  background-color: #717113;
+  color: white;
+}
+.emailicon {
+  background: url(comment-email.gif) no-repeat;
+  background-position: 7px;
+  padding-left: 27px;
+}
+.lock-icon {
+  background: url(icon_lock.gif) no-repeat;
+  background-position: 7px;
+  padding-left: 27px;
+}
+.links {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #B4B417;
+  font-size: small;
+}
+a:hover {
+  color: #717113;
+}
+.footer {
+  margin-top: 140px;
+  margin-bottom: 30px;
+}
+>>>>>>> becbf464f14de19c8caa41c96160972465e60787

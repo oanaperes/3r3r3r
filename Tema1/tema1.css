@@ -1,0 +1,25 @@
+h2 {
+  font-size:24px;
+  text-align: center;
+  margin-bottom:30px;
+}
+img {
+  float:left;
+  margin: 10px 20px 0 0;
+}
+p {
+  display: table-cell;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+}
+/*li {
+  display: inline;
+}*/
+a:link {
+  color: green;
+}
+a:hover {
+  color: red;
+}

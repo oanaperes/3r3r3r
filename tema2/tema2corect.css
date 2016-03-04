@@ -1,0 +1,113 @@
+body {
+  margin:0;
+  padding:0;
+}
+.pagina {
+  width: 1000px;
+  margin: 0 auto;
+}
+.header {
+  background-color: #9DA69A;
+  padding: 10px;
+  height: 50px;
+}
+.logo img {
+  float:left;
+  margin: 10px 20px 0;
+}
+.menu {
+  float:left;
+}
+.menu ul{
+  padding:0;
+}
+.menu li {
+  display: inline;
+}
+.menu li a {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px 4px 0 0;
+  margin-top: 20px;
+}
+.dropdown {
+  float:right;
+  color: green;
+  position: relative;
+}
+.drop-para {
+  font-size: 19px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  right: 0;
+  top: 50px;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+.content {
+  clear:both;
+  background-color: #ccc;
+}
+.section {
+  float:left;
+  width:75%;
+  border-right: 3px solid green;
+}
+.image {
+  float:left;
+  padding: 20px;
+}
+.desc {
+  float:left;
+  padding: 20px;
+}
+.section button {
+  float:right;
+  background-color: #a1d400;
+  margin: 20px;
+}
+.turtle-life {
+  clear:both;
+  padding-right: 10px;
+}
+.turtle-life p:last-child {
+  text-align: justify;
+}
+.aside {
+  float:left;
+  width:22%;
+  margin-left: 20px;
+}
+hr {
+  display:block;
+  border-bottom: 1px solid green;
+}
+.footer {
+  text-align: center;
+  background-color: #9DA69A;
+  padding: 10px;
+  clear:both;
+}
+.footer p {
+  margin: 0;
+  color: green;
+}

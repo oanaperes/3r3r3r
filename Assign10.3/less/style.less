@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //out: ../css/styles.css
 
 @import "variable.less";
@@ -77,3 +78,84 @@ span {
 .para-text {
   .div-para;
 }
+=======
+//out: ../css/styles.css
+
+@import "variable.less";
+
+.container-fluid {
+  height: 1000px;
+  margin: 2%;
+  background-color: @bg-color;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+ .main;
+}
+
+.row {
+  width: 100%;
+  height: 100%;
+  .div-para;
+}
+.two {
+  position: relative;
+  height: 100%;
+  .div-margin;
+  padding: 5%;
+  background-color: @bg-main-color;
+}
+p {
+  line-height: 150%;
+}
+.inline {
+  display: inline-block;
+}
+.inline2 {
+  float:right;
+  font-size: 150%;
+  line-height: 20px;
+}
+.header {
+  .div-para;
+  border-bottom: @border;
+}
+.para-main {
+  .div-para;
+  border-bottom: @border-main;
+  text-transform: capitalize;
+}
+span {
+  color: @second-color;
+}
+.last {
+  border: 0;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 77%;
+  .div-para;
+  border-top: @border;
+}
+.footer span {
+  display: inline-block;
+  padding-right: 17%;
+  color: @first-color;
+}
+.footer .menu {
+  padding-right: 0;
+}
+/*pagina a doua - exceptii*/
+.second {
+  float:right;
+}
+.header span {
+  display: inline-block;
+  float: right;
+}
+.para-text {
+  .div-para;
+}
+>>>>>>> becbf464f14de19c8caa41c96160972465e60787

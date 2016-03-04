@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
   <head>
@@ -337,3 +338,344 @@
   </body>
   </html>
 </html>
+=======
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Invoice</title>
+    <style media="screen">
+    * {
+      box-sizing: border-box;
+    }
+
+    :after,
+    :before {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      height: 100%;
+      max-height: 100%;
+      margin: 0;
+      padding: 0;
+      font-size: 14px;
+      font-family: 'Work Sans', sans-serif;
+    }
+    /*pagina de A4*/
+    page[size="A4"] {
+      width: 21cm;
+      height: 29.7cm;
+      display: block;
+      margin: 0 auto;
+      margin-top: 0.5cm;
+      margin-bottom: 0.5cm;
+      background: white;
+      box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+    }
+
+    .container {
+      width: 80%;
+      max-width: 960px;
+      margin: 0 auto;
+      padding-top: 70px;
+    }
+
+    .row {
+      margin-bottom: 60px;
+    }
+
+    .cf:before,
+    .cf:after,
+    .row:before,
+    .row:after {
+        content: "";
+        display: table;
+    }
+
+    .cf:after,
+    .row:after {
+      clear: both;
+    }
+
+    .col-100 {
+      width: 100%;
+    }
+
+    .col-50 {
+      width: 50%;
+    }
+
+    [class^="col-"],
+    [class*=" col-"] {
+      float: left;
+    }
+    /*for header*/
+    .logo {
+      float:left;
+      width: 60px;
+      height: 60px;
+      padding: 20px;
+      background-color: black;
+      color: white;
+      font-size: 20px;
+    }
+    .contact {
+      float:right;
+      display: block;
+      text-align: right;
+    }
+    .contact h3{
+      margin-top: 0;
+    }
+
+    /*for address and title*/
+    .inv-title {
+      float:right;
+      display: block;
+      text-align: right;
+    }
+    .inv-title h1{
+      margin-top: 0;
+    }
+    .no-space h3 {
+      margin-bottom: 0;
+    }
+    /*for invoice table*/
+    table {
+      width: 100%;
+    }
+    table, th, td {
+        border-collapse: collapse;
+        padding: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: left;
+    }
+    .center {
+      text-align: center;
+    }
+    .cell-right {
+      text-align: right;
+    }
+    .para p {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    address, p, td {
+      color:gray;
+    }
+    .black {
+      color: black;
+      font-weight: bold;
+    }
+    h1, h3, th {
+      text-transform: uppercase;
+    }
+
+    </style>
+  </head>
+
+  <body>
+    <page size="A4"> <!--pt dimensionarea unei pagini a4-->
+    <div class="container">
+
+      <div class="row header">
+
+        <div class="col-50">
+          <div class="logo">
+            O.
+          </div>
+        </div>
+        <div class="col-50">
+          <div class="contact para">
+            <h3>Milan Vukovich</h3>
+            <p>www.milanvukovici.net</p>
+            <p>hello@milanvukovici.net</p>
+            <p>+235 25 1234 655</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-50">
+          <h3>Recipient</h3>
+          <address class="recipient-addr para">
+            Oana Peres <br>
+            Str. Jupiter, Nr.6 <br>
+            Sat. Baciu, Cluj, Romania <br><br>
+            <p>
+              oana.peres@yahoo.com
+            </p>
+            <p>
+              +125 45 1253 569
+            </p>
+          </address>
+        </div>
+        <div class="col-50 inv-title para">
+          <h1>Invoice</h1>
+          <h3 class="no-space">Invoice number</h3>
+          <p>
+            125364-58
+          </p>
+        </div>
+
+      </div>
+
+      <div class="row"> <!--for invoice table-->
+
+        <div class="col-100">
+          <table>
+            <tr>
+              <th>
+                Invoice date
+              </th>
+              <th>
+                Task description
+              </th>
+              <th class="center">
+                Rate
+              </th class="center">
+              <th>
+                Hours
+              </th>
+              <th class="cell-right">
+                Amount
+              </th>
+            </tr>
+            <tr>
+              <td>
+                15 DEC 2015
+              </td>
+              <td>
+                Badass Poster Design-A4
+              </td>
+              <td class="center">
+                &#36;40
+              </td>
+              <td class="center">
+                8
+              </td>
+              <td class="cell-right">
+                &#36;320.00
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                Website Redesign
+              </td>
+              <td class="center">
+                &#36;40
+              </td>
+              <td class="center">
+                25
+              </td>
+              <td class="cell-right">
+                &#36;1000.00
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                iOS Application Design
+              </td>
+              <td class="center">
+                &#36;40
+              </td>
+              <td class="center">
+                30
+              </td>
+              <td class="cell-right">
+                &#36;1200.00
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                Newslatter Template Design
+              </td>
+              <td class="center">
+                &#36;40
+              </td>
+              <td class="center">
+                10
+              </td>
+              <td class="cell-right">
+                &#36;400.00
+              </td>
+            </tr>
+            <tr>
+              <td> </td>
+              <td colspan="4"><hr></td>
+              </tr>
+            <tr>
+               <td></td>
+               <td></td>
+               <td class="center black">
+                 Subtotal
+               </td>
+               <td></td>
+               <td class="cell-right">
+                 &#36;2920.00
+               </td>
+            </tr>
+            <tr>
+               <td></td>
+               <td></td>
+               <td class="center black">
+                 PayPal Fee
+               </td>
+               <td></td>
+               <td class="cell-right">
+                 5 &percnt;
+               </td>
+            </tr>
+            <tr>
+               <td></td>
+               <td></td>
+               <td class="center black">
+                 TOTAL
+               </td>
+               <td></td>
+               <td class="cell-right black">
+                 &#36;3066.00
+               </td>
+            </tr>
+           </table>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-100 para">
+          <h3>Notes</h3>
+          <p>
+            Payment should be payed in full no later than 15 days after receiving this invoice.
+          </p><br>
+          <p>
+            Have a nice day and thank you!
+          </p>
+          <p>
+            Milan
+          </p>
+        </div>
+
+      </div>
+
+      <div class="footer">
+        <hr>
+        <p>
+          Milan Vukovici. All Rights Reserved &copy; 2015 &#149; hello@milanvukovici.net
+        </p>
+      </div>
+    </div>
+    </page>
+  </body>
+  </html>
+</html>
+>>>>>>> becbf464f14de19c8caa41c96160972465e60787
